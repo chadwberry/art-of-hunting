@@ -223,7 +223,20 @@ textarea {
        color: black;
    }
 
+   .icon-title {
+       font-family: 'Special Elite', cursive;
+       font-size: 1em;
+       font-weight: bold;
+       padding-left: 10px;
+   }
 
+   .legal {
+       clear: both;
+   }
+
+   .legal i {
+       font-size: 1em;
+   }
 
 /* ==========================================================================
    Helper classes
