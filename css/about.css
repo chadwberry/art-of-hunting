@@ -351,14 +351,14 @@ textarea {
      }
      nav {
          width: 95%;
+         margin-left: 57px;
          display: flex;
          align-items: flex-end;
          justify-content: flex-end;
-         padding: 20px;
          background: none;
      }
      nav ul li {
-         padding: 0 40px 0 0;
+         padding: 62px 45px 0 0;
          display: inline-block;
          border-bottom: 0px;
      }
