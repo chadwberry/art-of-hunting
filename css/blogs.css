@@ -191,10 +191,22 @@ header h2 {
     margin: 30px;
 }
 
+.caption-row {
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+}
+
 .caption {
     font-size: 24px;
     text-align: center;
     font-style: italic;
+}
+
+.blog-picture-row {
+    border: 12px solid black;
+    width: 90%;
+    margin: 0 0 10px 32.5px;
 }
 
 .blog-picture {
@@ -372,6 +384,12 @@ footer i {
            float: left;
        }
 
+       .row {
+           width: 1200px;
+           float: left;
+       }
+
+
        /****** HEADER ******/
 
        #turkey-header {
@@ -465,12 +483,35 @@ footer i {
            margin: 0 0 50px 0;
        }
 
+       .article-row {
+           font-size: 21px;
+           color: #7f7f7f;
+           line-height: 42px;
+           /*padding-right: 50px;*/
+           text-align: justify;
+           margin: 0 0 50px 0;
+       }
+
+       .caption-row {
+           font-size: 16px;
+           text-align: center;
+           font-style: italic;
+           margin-top: -50px;
+           padding: 0 50px 20px 0;
+       }
+
        .caption {
            font-size: 16px;
            text-align: center;
            font-style: italic;
            margin-top: -50px;
            padding: 0 50px 20px 0;
+       }
+
+       .blog-picture-row {
+           border: 12px solid black;
+           width: 94%;
+           margin: 0 0 80px 0;
        }
 
        .blog-picture {
